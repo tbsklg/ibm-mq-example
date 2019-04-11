@@ -1,0 +1,3 @@
+mvn clean install
+docker build -t mq-sender:1 .
+docker run --rm --name=mq-sender --network nwrk -p 9080:9080 mq-sender:1

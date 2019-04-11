@@ -1,0 +1,30 @@
+
+Launching defaultServer (Open Liberty 19.0.0.1/wlp-1.0.24.cl190120190122-1900) on OpenJDK 64-Bit Server VM, version 9-Debian+0-9b149-1 (en)
+[AUDIT   ] CWWKE0001I: The server defaultServer has been launched.
+[AUDIT   ] CWWKZ0058I: Monitoring dropins for applications.
+[WARNING ] SRVE9967W: The manifest class path jms.jar can not be found in jar file wsjar:file:/opt/wlp/usr/servers/defaultServer/dropins/mq-receiver.war!/WEB-INF/lib/com.ibm.mq.allclient-9.1.1.0.jar or its parent.
+[WARNING ] SRVE9967W: The manifest class path fscontext.jar can not be found in jar file wsjar:file:/opt/wlp/usr/servers/defaultServer/dropins/mq-receiver.war!/WEB-INF/lib/com.ibm.mq.allclient-9.1.1.0.jar or its parent.
+[WARNING ] SRVE9967W: The manifest class path providerutil.jar can not be found in jar file wsjar:file:/opt/wlp/usr/servers/defaultServer/dropins/mq-receiver.war!/WEB-INF/lib/com.ibm.mq.allclient-9.1.1.0.jar or its parent.
+[WARNING ] SRVE9967W: The manifest class path bcpkix-jdk15on.jar can not be found in jar file wsjar:file:/opt/wlp/usr/servers/defaultServer/dropins/mq-receiver.war!/WEB-INF/lib/com.ibm.mq.allclient-9.1.1.0.jar or its parent.
+[WARNING ] SRVE9967W: The manifest class path bcprov-jdk15on.jar can not be found in jar file wsjar:file:/opt/wlp/usr/servers/defaultServer/dropins/mq-receiver.war!/WEB-INF/lib/com.ibm.mq.allclient-9.1.1.0.jar or its parent.
+[WARNING ] SRVE9967W: The manifest class path jms.jar can not be found in jar file wsjar:file:/opt/wlp/usr/servers/defaultServer/dropins/mq-receiver.war!/WEB-INF/lib/com.ibm.mq.allclient-9.1.1.0.jar or its parent.
+[WARNING ] SRVE9967W: The manifest class path fscontext.jar can not be found in jar file wsjar:file:/opt/wlp/usr/servers/defaultServer/dropins/mq-receiver.war!/WEB-INF/lib/com.ibm.mq.allclient-9.1.1.0.jar or its parent.
+[WARNING ] SRVE9967W: The manifest class path providerutil.jar can not be found in jar file wsjar:file:/opt/wlp/usr/servers/defaultServer/dropins/mq-receiver.war!/WEB-INF/lib/com.ibm.mq.allclient-9.1.1.0.jar or its parent.
+[WARNING ] SRVE9967W: The manifest class path bcpkix-jdk15on.jar can not be found in jar file wsjar:file:/opt/wlp/usr/servers/defaultServer/dropins/mq-receiver.war!/WEB-INF/lib/com.ibm.mq.allclient-9.1.1.0.jar or its parent.
+[WARNING ] SRVE9967W: The manifest class path bcprov-jdk15on.jar can not be found in jar file wsjar:file:/opt/wlp/usr/servers/defaultServer/dropins/mq-receiver.war!/WEB-INF/lib/com.ibm.mq.allclient-9.1.1.0.jar or its parent.
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://41718bdff70c:9081/metrics/
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://41718bdff70c:9081/ibm/api/
+[AUDIT   ] CWPKI0803A: SSL certificate created in 8.663 seconds. SSL key file: /opt/wlp/usr/servers/defaultServer/resources/security/key.jks
+[WARNING ] CNTR4015W: The message endpoint for the MessageDispatcher message-driven bean cannot be activated because the mq-receiver/MessageDispatcher activation specification is not available. The message endpoint will not receive messages until the activation specification becomes available.
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://41718bdff70c:9081/mq-receiver/
+[AUDIT   ] CWWKZ0001I: Application mq-receiver started in 5.316 seconds.
+[WARNING ] CWWKS9591W: The defaultSSLConfig SSL configuration does not exist.  This could be due to a missing SSL element or an invalid reference to a keystore or truststore element in the configuration. 
+[AUDIT   ] CWWKF0012I: The server installed the following features: [beanValidation-2.0, servlet-4.0, ssl-1.0, jndi-1.0, jca-1.7, cdi-2.0, jdbc-4.2, jms-2.0, ejbPersistentTimer-3.2, appSecurity-3.0, appSecurity-2.0, j2eeManagement-1.1, wasJmsServer-1.0, javaMail-1.6, jaxrs-2.1, mpMetrics-1.0, mpOpenTracing-1.0, webProfile-8.0, jpa-2.2, jcaInboundSecurity-1.0, jsp-2.3, jsonb-1.0, ejbLite-3.2, managedBeans-1.0, jsf-2.3, ejbHome-3.2, jaxws-2.2, jsonp-1.1, jaxrsClient-2.1, el-3.0, concurrent-1.0, appClientSupport-1.0, ejbRemote-3.2, jaxb-2.2, mdb-3.2, jacc-1.5, javaee-8.0, opentracing-1.0, batch-1.0, ejb-3.2, jpaContainer-2.2, json-1.0, jaspic-1.1, distributedMap-1.0, websocket-1.1, wasJmsSecurity-1.0, wasJmsClient-2.0].
+[AUDIT   ] CWWKF0011I: The server defaultServer is ready to run a smarter planet.
+[AUDIT   ] CWWKE0085I: The server defaultServer is stopping because the JVM is exiting.
+[AUDIT   ] CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[AUDIT   ] CWWKT0017I: Web application removed (default_host): http://41718bdff70c:9081/metrics/
+[AUDIT   ] CWWKT0017I: Web application removed (default_host): http://41718bdff70c:9081/mq-receiver/
+[AUDIT   ] CWWKT0017I: Web application removed (default_host): http://41718bdff70c:9081/ibm/api/
+[AUDIT   ] CWWKZ0009I: The application mq-receiver has stopped successfully.
+[AUDIT   ] CWWKE0036I: The server defaultServer stopped after 30 minutes, 11.47 seconds.

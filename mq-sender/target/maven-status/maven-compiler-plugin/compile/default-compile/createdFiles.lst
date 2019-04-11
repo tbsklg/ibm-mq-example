@@ -1,0 +1,7 @@
+com/tbs_klg/com/control/TaskService.class
+com/tbs_klg/com/control/TaskCache.class
+com/tbs_klg/com/control/MessageReceiver.class
+com/tbs_klg/com/JAXRSConfiguration.class
+com/tbs_klg/com/control/ListenerConnection.class
+com/tbs_klg/com/boundary/TasksResource.class
+com/tbs_klg/com/control/MessageProducer.class
